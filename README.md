@@ -1,4 +1,10 @@
 <style>
+
+
+
+
+
+
     .btnVoltar {
         box-sizing: border-box;
         -webkit-appearance: none;
@@ -55,4 +61,4 @@ Editora: Novatec.
 ### Esta página é destinada a criação de registros e exercícios retirados do livro Curso Intensivo em Python, de Eric Matthes, onde a ideia é organizar os principais pontos detectados na leitura, e armazenar toda a execução e codificação dos exemplos e exercícios.
 
 
-<button class="btn third"><a href="https://fshreiner.github.io">Voltar</a></button>
+<button class="btnVoltar third"><a href="https://fshreiner.github.io">Voltar</a></button>
