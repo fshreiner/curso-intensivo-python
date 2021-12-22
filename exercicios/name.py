@@ -2,6 +2,6 @@
 
 name = "ada lovelace"
 
-print(name.title())
-print(name.upper())
-print(name.lower())
+print(name.title()) # Exibe o conteúdo com a primeira letra maiúscula
+print(name.upper()) # Exibe o conteúdo com todas letras maiúsculas
+print(name.lower()) # Exibe o conteúdo com todas letras minúsculas

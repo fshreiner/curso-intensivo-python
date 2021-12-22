@@ -25,5 +25,21 @@ Editora: Novatec.
 
 ### Esta página é destinada a criação de registros e exercícios retirados do livro Curso Intensivo em Python, de Eric Matthes, onde a ideia é organizar os principais pontos detectados na leitura, e armazenar toda a execução e codificação dos exemplos e exercícios.
 
+* * *
+
+### Conceitos Básicos e Dicas
+
+```python
+# Exemplos de uso de métodos declarados após a variável, estes úteis quando um título deve ser exibido, ou um dado deve ser colhido todo com letras maiúsculas ou minúsculas.
+
+name = "ada lovelace"
+
+print(name.title()) # Exibe o conteúdo com a primeira letra maiúscula
+print(name.upper()) # Exibe o conteúdo com todas letras maiúsculas
+print(name.lower()) # Exibe o conteúdo com todas letras minúsculas
+
+```
+
+* * *
 
 <button class="btn btnVoltar"><a href="https://fshreiner.github.io">Voltar</a></button>
