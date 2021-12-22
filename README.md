@@ -39,4 +39,4 @@ print(name.lower()) # Exibe o conteúdo com todas letras minúsculas
 
 * * *
 
-<button class="btnVoltar"><a href="https://fshreiner.github.io">Voltar</a></button>
+<a href="https://fshreiner.github.io" class="btnVoltar">Voltar</a>
