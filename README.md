@@ -1,9 +1,6 @@
 <style>
 
 .btnVoltar {
-    padding: 0.75rem 1rem;
-    }
-.btnVoltar {
     display: inline-block;
     margin-bottom: 1rem;
     color: rgba(255,255,255,0.7);
@@ -42,4 +39,4 @@ print(name.lower()) # Exibe o conteúdo com todas letras minúsculas
 
 * * *
 
-<button class="btn btnVoltar"><a href="https://fshreiner.github.io">Voltar</a></button>
+<button class="btnVoltar"><a href="https://fshreiner.github.io">Voltar</a></button>
