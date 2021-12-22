@@ -1,5 +1,18 @@
 <style>
-
+    
+    .btnVoltar {
+        color: rgba(232, 230, 227, 0.7);
+        background-color: rgba(24, 26, 27, 0.08);
+        border-color: rgba(48, 52, 54, 0.2);
+    }
+    
+    .btnVoltar {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 0.9rem;
+    }
+    
 .btnVoltar {
     display: inline-block;
     margin-bottom: 1rem;
