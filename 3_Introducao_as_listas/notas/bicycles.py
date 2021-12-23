@@ -16,6 +16,3 @@ print(bicycles[2].lower() + "\n")
 print(bicycles[-1])
 print(bicycles[-2])
 print(bicycles[-3])
-
-for bicycle in bicycles:
-    print(bicycle)
