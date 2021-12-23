@@ -15,4 +15,9 @@ print(bicycles[2].lower() + "\n")
 # Essa convenção também se estente a outros valores negativos, por exemplo -2 retorna o penúltimo item da lista, e -3 o antepenúltimo.
 print(bicycles[-1])
 print(bicycles[-2])
-print(bicycles[-3])
+print(bicycles[-3] + "\n")
+
+# Usando valores individuais de uma lista
+message = "My first bicycle was a " + bicycles[0].title() + "."
+
+print(message)
