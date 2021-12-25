@@ -38,7 +38,7 @@ motorcycles.insert(0, 'honda')
 motorcycles.insert(2, 'dafra')
 print(motorcycles)
 
-# Removendo elementos de uma lista, é possível através do comando del (caso a posição do item que voc~e quer remover seja conhecida)
+# Removendo elementos de uma lista, é possível através do comando del (caso a posição do item que você quer remover seja conhecida)
 # O comando del exclui o item da lista definitivamente, desta forma o valor fica permanentemente inacessível
 del motorcycles[0] # Indica que é para remover o primeiro item da lista, no caso honda
 print(str(motorcycles) + "\n")

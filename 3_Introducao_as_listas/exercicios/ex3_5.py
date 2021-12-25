@@ -15,9 +15,9 @@ guests = ['Larissa Carósio', 'Paulo Moura', 'Edu Ribeiro', 'Rodrigo Banha']
 print('Hi {}'.format(guests[0].title()) + ', how are you? I invite you to dinner at my house today at 8pm!')
 print('Hi {}'.format(guests[1].title()) + ', how are you? I invite you to dinner at my house today at 8pm!')
 print('Hi {}'.format(guests[2].title()) + ', how are you? I invite you to dinner at my house today at 8pm!')
-print('Hi {}'.format(guests[3].title()) + ', how are you? I invite you to dinner at my house today at 8pm!')
+print('Hi {}'.format(guests[3].title()) + ', how are you? I invite you to dinner at my house today at 8pm!\n')
 
-print('Unfortunately {}'.format(guests[3].title()) + ' will not be able to attend the dinner.')
+print('Unfortunately {}'.format(guests[3].title()) + ' will not be able to attend the dinner.\n')
 
 guests[3] = 'Ajurinã Zuwarg' # Substituindo o convidado Rodrigo Banha pelo Ajurinã Zuwarg
 
