@@ -21,10 +21,31 @@
 
 places = ['japan', 'londres', 'paris', 'amazonia', 'new zeland']
 
-print('Places I would like to visit:')
-print(places)
+print('Places I would like to visit (Original Order):')
+print(str(places) + '\n')
 
 print('Alphabetical list:')
 print(sorted(places))
 print('Original order of the list:')
-print(places)
+print(str(places) + '\n')
+
+print('Reverse alphabetical list:')
+print(sorted(places, reverse=True))
+print('Original order of the list:')
+print(str(places) + '\n')
+
+places.reverse()
+print('List in reverse order:')
+print(str(places) + '\n')
+
+places.reverse()
+print('List in original order again:')
+print(str(places) + '\n')
+
+places.sort()
+print('Alphabetical list:')
+print(str(places) + '\n')
+
+places.sort(reverse=True)
+print('Reverse alphabetical list:')
+print(str(places) + '\n')
