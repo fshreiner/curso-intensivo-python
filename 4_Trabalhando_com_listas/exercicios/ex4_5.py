@@ -3,3 +3,12 @@
 # e max() para garantir que sua lista realmente começa em um e termina em um
 # milhão. Além disso, utilize a função sum() para ver a rapidez com que Python é
 # capaz de somar um milhão de números.
+
+numbers = []
+
+for value in range(1,1000001):
+     numbers.append(value)
+
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
