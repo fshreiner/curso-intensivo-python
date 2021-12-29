@@ -1,0 +1,6 @@
+# Testando dois números não iguais
+
+answer = 17
+
+if answer != 42:
+    print("That is not the correct answer. Pleasy try again!") 
