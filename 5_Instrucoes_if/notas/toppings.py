@@ -28,5 +28,28 @@ if 'peperoni' in requested_toppings:
 if 'extra cheese' in requested_toppings:
     print('Adding extra cheese.')
 
-print('\nFinished making your pizza!')
- 
+print('\nFinished making your pizza!\n')
+
+# Verificando se existem itens específicos na lista
+requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+
+for requested_topping in requested_toppings:
+    if requested_topping == 'green peppers':
+        print('Sorry, we are out of green peppers right now.')
+    else:
+        print('Adding {}'.format(requested_topping.title()) + '.')
+
+print('\nFinished making your pizza!\n')
+
+# Verificando se uma lista está vazia
+requested_toppings = []
+
+if requested_toppings: # Ao informar só o nome da lista o sistema valida, se tiver ao menos um item retorna True, se estiver vazia retorna False
+    for requested_topping in requested_toppings:
+        print('Adding {}'.format(requested_topping.title()) + '.')
+    print('\nFinished making your pizza!')
+else:
+    print('Are you sure you want a plain pizza?\n')
+
+
+
