@@ -51,5 +51,23 @@ if requested_toppings: # Ao informar só o nome da lista o sistema valida, se ti
 else:
     print('Are you sure you want a plain pizza?\n')
 
+# Usando várias listas
+# As pessoas pedirão de tudo, em especial quando se tratar de
+# ingredientes para uma pizza. E se um cliente realmente quiser batatas
+# fritas em sua pizza? Podemos usar listas e instruções if para garantir que
+# o dado de entrada faça sentido antes de atuar sobre ele.
+# Vamos prestar atenção em solicitações de ingredientes incomuns antes
+# de prepararmos uma pizza. O exemplo a seguir define duas listas. A
+# primeira é uma lista de ingredientes disponíveis na pizzaria, e a segunda
+# 126
+# é a lista de ingredientes que o usuário pediu. 
+available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
 
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
 
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print('Adding {}'.format(requested_topping) + '.')
+    else:
+        print('Sorry, we dont have {}'.format(requested_topping) + '.')
+print('\nFinished making your pizza!')
