@@ -19,4 +19,4 @@ while polling_activate:
 # A enquete foi concluída. Mostra os resultados
 print('\n--- Poll Results ---')
 for name, response in responses.items():
-    print(name + 'would like to climb ' + response + '.')
+    print(name + ' would like to climb ' + response + '.')
