@@ -14,3 +14,6 @@ class Dog():
     def roll_over(self):
         """Simula um cachorro rolando em resposta a um comando."""
         print(self.name.title() + " rolled over!")
+
+cachorro = Dog('miau', 3)
+print(cachorro)
