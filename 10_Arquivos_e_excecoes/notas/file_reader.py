@@ -8,4 +8,13 @@ with open(file_path) as file_object:
     # print(contents)
 
     # pag 234
+
+#Trabalhando com listas de linha de um arquivo
+print('\n')
+
+with open(file_path) as file_object:
+    lines = file_object.readlines()
+
+for line in lines:
+    print(line.rstrip())
     
